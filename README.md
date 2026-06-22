@@ -166,9 +166,10 @@ http://localhost:3000/settings
 
 ### Cookie-Based Customization
 
-(Add screenshot)
+(Add screenshot) 
 User preferences are stored using HTTP cookies and automatically applied to future requests.
 
 ### Chunked Transfer Encoding
 
-(Add screenshot)
+(Add screenshot) 
+Verified HTTP chunked transfer encoding using browser developer tools.
