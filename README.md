@@ -158,18 +158,18 @@ http://localhost:3000/settings
 
 ### Directory Listing
 
-(Add screenshot)
+![Directory Listing](Screenshots/Directory_Listing.png)
 
 ### Settings Page
 
-(Add screenshot)
+![Settings Page](Screenshots/Settings_Page.png)
 
-### Cookie-Based Customization
+### Cookie-Based Customization/Background Change
 
-(Add screenshot) 
+![Cookie-Based Customization/Background Change](Screenshots/Background_change.png)
 User preferences are stored using HTTP cookies and automatically applied to future requests.
 
 ### Chunked Transfer Encoding
 
-(Add screenshot) 
+![Chunked Transfer Encoding](Screenshots/Chunked_Response.png)
 Verified HTTP chunked transfer encoding using browser developer tools.
