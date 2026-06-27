@@ -107,12 +107,15 @@ pedia
 
 ---
 
-## Running the Server
+## Running the Server in the Terminal
 
 ```bash
 python server.py
 ```
-
+or
+```bash
+python3 server.py
+```
 Default port:
 
 ```text
@@ -124,7 +127,10 @@ Specify a custom port:
 ```bash
 python server.py 8080
 ```
-
+or
+```bash
+python3 server.py 8080
+```
 ---
 
 ## Example Usage
@@ -135,14 +141,13 @@ Open a browser and navigate to:
 http://localhost:3000
 ```
 
-Access the settings page:
+Access the settings page by visiting:
 
 ```text
 http://localhost:3000/settings
 ```
 
----
-
+Alternatively, you can click the **Settings** button on the home page.
 ## Future Improvements
 
 * Multi-threaded connection handling
