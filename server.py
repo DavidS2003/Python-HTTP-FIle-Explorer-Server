@@ -146,10 +146,11 @@ while True:
         body += f"<body bgcolor='{color}'>"
         body += f"<h1>Directory Listing for {filename}</h1>"
         body += f"<p><b>(chunked={chunked}, max_chunk={max_chunk}, random={random_chunks})</b></p>"
+        body += f"<button> <a href='/settings'>Settings</a> </button><br>"
         
         for f in items:
             body += f'<a href="/{filename}/{f}">{f}</a><br>'
-
+        
         body += "</body></html>"
     else:
         print("File not found:", filename)
