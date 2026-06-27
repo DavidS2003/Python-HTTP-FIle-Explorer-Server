@@ -90,7 +90,10 @@ while True:
         persistent = params.get("persistent") == "on"
         chunked = params.get("chunked") == "on"
         max_chunk = params.get("max_chunk", "1024")
-        max_chunk = int(max_chunk)
+        if max_chunk:
+            max_chunk = int(max_chunk)
+        else:
+            max_chunk = 0
         random_chunks = params.get("random") == "on"
         permanent = params.get("permanent") == "on"
         
