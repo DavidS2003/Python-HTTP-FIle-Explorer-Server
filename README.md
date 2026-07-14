@@ -148,14 +148,6 @@ http://localhost:3000/settings
 ```
 
 Alternatively, you can click the **Settings** button on the home page.
-## Future Improvements
-
-* Multi-threaded connection handling
-* POST request support
-* File upload capability
-* HTTPS support
-* Connection persistence
-* Logging and monitoring
 
 ---
 
